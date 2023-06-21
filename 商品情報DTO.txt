@@ -1,0 +1,52 @@
+package bean;
+
+//商品情報（itemid、商品名、価格）を一つのオブジェクトとしてまとめるためのDTOクラス
+public class Book {
+
+	//商品ののID
+	private String itemid;
+	
+	//商品名
+	private String itemname;
+	
+	//商品の価格
+	private int itemprice;
+
+	//コンストラクタ、 商品情報（ID、商品名、価格）の初期設定をおこなう
+	public Book() {
+		this.itemid = null;
+		this.itemname = null;
+		this.itemprice = 0;
+	}
+
+	//商品のIDを取得する
+	public String getitemid() {
+		return itemid;
+	}
+
+	//商品IDの設定
+	public void setIsbn(String itemid) {
+		this.itemid = itemid;
+	}
+
+	//商品名を取得する
+	public String getitemname() {
+		return itemname;
+	}
+
+	//商品名を設定する
+	public void setitemname(String itemname) {
+		this.itemname = itemname;
+	}
+
+	//商品の価格を取得する
+	public int getitemprice() {
+		return itemprice;
+	}
+
+	//商品の価格を設定する
+	public void setitemprice(int itemprice) {
+		this.itemprice = itemprice;
+	}
+
+}
