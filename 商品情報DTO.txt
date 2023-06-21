@@ -1,7 +1,7 @@
 package bean;
 
 //商品情報（itemid、商品名、価格）を一つのオブジェクトとしてまとめるためのDTOクラス
-public class Book {
+public class Uniform {
 
 	//商品ののID
 	private String itemid;
@@ -13,7 +13,7 @@ public class Book {
 	private int itemprice;
 
 	//コンストラクタ、 商品情報（ID、商品名、価格）の初期設定をおこなう
-	public Book() {
+	public Uniform() {
 		this.itemid = null;
 		this.itemname = null;
 		this.itemprice = 0;
